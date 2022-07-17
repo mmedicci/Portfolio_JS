@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{ 
+    background-color: rgb(12, 131, 135);
+    font-family: 'Segoe UI', sans-serif;
+    color: #FFFFFF
+}
+
+.container{
+    display: grid;
+    padding: 15px;
+    gap: 1px;
+    grid-template-areas: 
+    'menu'
+    'sidebar'
+    'conteudo'
+    'conteudo2'
+    'conteudo3'
+    'conteudo4'
+    'footer';
+}
+
+.container div{
+    padding: 10px;
+
+}
+
+#menu{
+    top: 0px;
+    left: 1px;
+    width: 1555px;
+    height: 67px;
+    background: #3A3A3A 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+}
+
+nav ul {
+    display:inline-flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+}
+
+#apres {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a1f0f6;
+    font-weight: 700;
+    padding: 10px 30px 30px 0px;
+    
+}
+
+.mini__avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+  
+#sidebar {
+    grid-area: sidebar;
+    display: flex;
+    width: 1555px;
+    height: 380px;
+    background: #3A3A3A;
+}
+
+.capa{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#conteudo{
+    grid-area: conteudo;
+    width: 1555px;
+    height: 400px;
+    background: #104e53 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+}
+
+.avatar__imagen{
+    position:relative;    
+    left: 25%;
+    bottom: 25%;
+    width: 15%;
+    height: 50%;
+    border-radius: 50%;
+    border: 3px solid #091e20;
+    box-shadow: 3px solid #104e53;
+}
+
+.git{
+    position: relative;
+    width: 4%;
+    height: 15%;
+    left: 28%;
+    bottom: 35%;
+    border: 6px solid #0f574f;
+    background: #99cdd1;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linke{
+    position: relative;
+    width: 3.5%;
+    height: 15%;
+    left: 34%;
+    bottom: 49%;
+    border: 6px solid #0f574f;
+    background: #99cdd1;
+    border-radius: 50%;
+}
+
+.eu{
+    position: relative;
+    width: 50%;
+    height: 86%;
+    left: 40%;
+    bottom: 80%; 
+    text-align: justify;
+    font-size: 20px;  
+}
+
+.nome{
+    text-align: left;
+    font: normal normal bold 30px/48px;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+#conteudo2{
+    grid-area: conteudo2;
+    top: 939px;
+    left: 1px;
+    width: 1555px;
+    height: 500px;
+    background: #a1f0f6 0% 0% no-repeat padding-box 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.forma{
+    position:relative;
+    width: 700px;
+    height: 420px;
+    left: 30%;
+}
+
+.maior{
+    font-size: 30px;
+}
+
+.list{
+    list-style: none;
+    border-left: 8px solid #104e53;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+#conteudo3{
+    grid-area: conteudo3;
+    top: 1292px;
+    left: 1px;
+    width: 1555px;
+    height: 600px;
+    background: #104e53 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.exper{
+    position:relative;
+    width: 700px;
+    height: 500px;
+    left: 30%;
+}
+
+.list2{
+    list-style: none;
+    border-left: 8px solid #a1f0f6;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+#conteudo4{
+    grid-area: conteudo4;
+    top: 1645px;
+    left: 1px;
+    width: 1555px;
+    height: 518px;
+    background: #a1f0f6 0% 0% no-repeat padding-box 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+
+.titulo__car{
+    position:relative;
+    width: 700px;
+    height: 50px;
+    left: 30%;
+}
+
+.card1{
+    position:relative;
+    width: 280px;
+    height: 380px;
+    left: 20%;
+    background:#b7edf0;
+    color:#104e53;
+    border:4px solid #104e53;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.card_img{
+    top: 1800px;
+    left: 566px;
+    width: 232px;
+    height: 129px;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.tit_card1{
+    position:relative;
+    top: 20px;
+    text-align: center;
+}
+
+#botao{
+    position:absolute;
+    text-decoration: none;
+    background-color: rgb(6, 113, 130);
+    color: #cbedf5;
+    border-style: solid;
+    border-radius: 8px;
+    padding:5px 20px;
+    height: 32px;
+    left: 30%;
+}
+
+.card2{
+    position:relative;
+    width: 280px;
+    height: 380px;
+    bottom: 77%;
+    left: 40%;
+    background:#b7edf0;
+    color:#104e53;
+    border:4px solid #104e53;
+    border-radius: 8px;
+}
+
+.card3{
+    position:relative;
+    width: 280px;
+    height: 380px;
+    bottom: 154%;
+    left: 60%;
+    background:#b7edf0;
+    color:#104e53;
+    border:4px solid #104e53;
+    border-radius: 8px;
+}
+
+#footer{
+    grid-area: footer;
+    top: 3000px;
+    left: 0px;
+    width: 1555px;
+    height: 400px;
+    background: #104e53 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.titulo__contato{
+    position:relative;
+    width: 630px;
+    height: 50px;
+    left: 30%;
+}
+
+.contato{
+    grid-area: contato;
+    position:relative;
+    width: 300px;
+    height: 150px;
+    left: 30%;
+    text-align: justify;
+}
+
+.redes{
+    position:relative;
+    width: 300px;
+    height: 150px;
+    left: 30%;
+    text-align: justify;
+}
+
+.instagram{
+    position: relative;
+    width: 60px;    
+}
+
+.facebook{
+    position: relative;
+    width: 60px;
+    left: 30%;
+    bottom: 50%; 
+}
+
+.formulario{
+    position:relative;
+    width: 300px;
+    height: 300px;
+    left: 300px;
+    bottom: 325px;    
+    text-align: left;
+}
+
+form input[type="email"],
+form input[type="text"]{
+    width:250px;
+    padding: 0.2em;
+    border: 1px solid rgb(180, 243, 240);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+textarea{
+	width:250px;
+	height:60px;
+	border: 1px solid rgb(180, 243, 240);
+    box-shadow: 2px 2px 2px 2px rgba(12, 189, 196, 0.2);
+	display:block;
+}
+
+button[type="submit"]{
+    text-decoration: none;
+    background-color: #15656b;;
+    color: #b8faf4;
+    font-weight: bolder;
+    border: 1px solid rgb(180, 243, 240);
+    border-radius: 8px;
+    padding:5px 20px;
+    height: 32px;
+    left: 30%;
+}
+
+button[type="submit"]:hover{
+	cursor:pointer;
+}
+
+@media (max-width: 750px){
+    
+    .container{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .linkedin{
+        width: fit-content;
+        height: fit-content;
+}
+}
